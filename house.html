@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="favicon">
+    <title>StayBnb</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/b45c6d8a14.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="header">
+        <nav id="nav-bar" class="">
+
+            <img src="img/logo.png" alt="logo" id="logo">
+
+            <ul id="nav-links">
+                <li><a href="/index.html" class="active">Popular Places</a></li>
+                <li><a href="/house.html">Travel Outside</a></li>
+                <li><a href="/listing.html">Online Packages</a></li>
+            </ul>
+
+            <a href="#" id="register-btn">Register Now</a>
+            <i class="fa-solid fa-bars menu-btn" onclick="toggleMenu()"></i>
+        </nav>
+
+        <div class="container">
+            <h1 id="main-heading">Find Your Next Stay</h1>
+
+            <div id="search-box">
+                <form action="">
+                    <div id="location-input">
+                        <label for="location">Location</label>
+                        <input type="text" name="location" id="" placeholder="Where are you Going ">
+                    </div>
+
+                    <div>
+                        <label for="check-in">Check in</label>
+                        <input type="date" name="check-in" id="" placeholder="Add Date">
+                    </div>
+
+                    <div>
+                        <label for="check-out">Check out</label>
+                        <input type="date" name="check-out" id="" placeholder="Add Date">
+                    </div>
+
+                    <div>
+                        <label for="guest">Guest</label>
+                        <input type="text" name="guest" id="" placeholder="Add Guest">
+                    </div>
+
+                    <button type="submit"><img src="img/search.png" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exclusives -->
+
+    <div class="container">
+        <h2 id="sub-title">Exclusives</h2>
+        <div class="exclusives">
+            <div>
+                <img src="img/image-1.png" alt="">
+                <span>
+                    <h3>London</h3>
+                    <p>Starts @ 250$</p>
+                </span>
+                
+            </div>
+
+            <div>
+                <img src="img/image-2.png" alt="">
+                <span>
+                    <h3>Switzerland</h3>
+                    <p>Starts @ 300$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-3.png" alt="">
+                <span>
+                    <h3>Australia</h3>
+                    <p>Starts @ 260$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-4.png" alt="">
+                <span>
+                    <h3>France</h3>
+                    <p>Starts @ 350$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-5.png" alt="">
+                <span>
+                    <h3>Amsterdam</h3>
+                    <p>Starts @ 270$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-1.png" alt="">
+                <span>
+                    <h3>Netherland</h3>
+                    <p>Starts @ 180$</p>
+                </span>
+                
+            </div>
+
+            <div>
+                <img src="img/image-2.png" alt="">
+                <span>
+                    <h3>New York</h3>
+                    <p>Starts @ 200$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-3.png" alt="">
+                <span>
+                    <h3>Chicago</h3>
+                    <p>Starts @ 300$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-4.png" alt="">
+                <span>
+                    <h3>San Franciso</h3>
+                    <p>Starts @ 360$</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="img/image-5.png" alt="">
+                <span>
+                    <h3>Shanghai</h3>
+                    <p>Starts @ 170$</p>
+                </span>
+            </div>
+        </div>
+
+        <!-- Trending Section -->
+
+        <h2 id="sub-title">Trending places</h2>
+        
+            <div id="trending">
+                <div>
+                    <img src="img/dubai.png" alt="">
+                    <h3>Dubai</h3>
+                </div>
+
+                <div>
+                    <img src="img/new-york.png" alt="">
+                    <h3>New-York</h3>
+                </div>
+
+                <div>
+                    <img src="img/paris.png" alt="">
+                    <h3>Paris</h3>
+                </div>
+
+                <div>
+                    <img src="img/new-delhi.png" alt="">
+                    <h3>New-Delhi</h3>
+                </div>
+            </div>
+    
+            <!-- call to action -->
+
+        <div id="cta">
+            <h3>Sharing Is Earning Now</h3>
+            <p>Great opportunity to make money by <br>
+            sharing your extra space</p>
+            <a href="#" id="cta-btn">Know More</a>
+        </div>
+
+        <!-- Traveller Strories -->
+        <h2 id="sub-title">Travellers Stories</h2>
+
+        <div id="stories">
+            <div>
+                <img src="img/story-1.png" alt="story">
+                <p>Popular European countries with a budget of just $10,000</p>
+            </div>
+
+            <div>
+                <img src="img/story-2.png" alt="story">
+                <p>Travelled more than 100 countries in less than a year</p>
+            </div>
+
+            <div>
+                <img src="img/story-3.png" alt="story">
+                <p>Best experience you get while travelling to thailand</p>
+            </div>
+            
+        </div>
+        <a href="#" id="start-btn">Start making money</a> 
+
+        <!-- Abouy StayBnb -->
+
+        <div id="about-msg">    
+            <h2>About StayBnb</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, veritatis dolore. Quae, at libero ratione, corrupti inventore, ullam nulla voluptates voluptatibus a ad est quam? Facilis aperiam porro in! Pariatur.</p>
+        </div>
+        
+        <!-- Footer section -->
+
+        <div id="footer">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            
+            <a href="https://www.instagram.com/himanshuhota01/"><i class="fa-brands fa-instagram"></i></a>
+    
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+            <a href="https://www.linkedin.com/in/himanshu-hota/"><i class="fa-brands fa-linkedin"></i></a>
+
+            <hr>
+
+            <p>Copyright 2022</p>
+        </div>
+
+    </div>
+
+
+<!-- Javascript Section -->
+
+<script>
+
+    let nav = document.getElementById("nav-bar");
+
+    function toggleMenu(){
+        nav.classList.toggle("hide-menu");
+    }
+
+</script>
+
+</body>
+</html>

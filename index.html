@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="favicon">
+    <title>StayBnb</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/b45c6d8a14.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav id="nav-bar" class="navbar-white">
+        
+        <a href="/index.html"><img src="img/logo-red.png" alt="logo" id="logo"></a>
+
+        
+
+        <ul id="nav-links">
+            <li><a href="/index.html" >Popular Places</a></li>
+            <li><a href="/house.html" class="active">Travel Outside</a></li>
+            <li><a href="/listing.html">Online Packages</a></li>
+        </ul>
+
+        <a href="#" id="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars menu-btn" onclick="toggleMenu()"></i>
+    </nav>
+
+    <!-- Houes Details page -->
+
+    <div id="house-details">
+        <div id="house-title">
+            <h1>Wenge House </h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco ,California , United States</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="gallery">
+            <div class="gallery-img-1">
+                <img src="img/house-1.png" alt="house">
+            </div>
+
+            <div>
+                <img src="img/house-2.png" alt="house">
+            </div>
+
+            <div>
+                <img src="img/house-3.png" alt="house">
+            </div>
+
+            <div>
+                <img src="img/house-4.png" alt="house">
+            </div>
+
+            <div>
+                <img src="img/house-5.png" alt="house">
+            </div>
+        </div>
+
+        <div id="small-details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2 Guest &nbsp; &nbsp; 2 Beds &nbsp; &nbsp; 1 Bathroom</p>
+            <h4>$ 100 / Day</h4>
+        </div>
+
+        <hr class="line">
+
+        <form action="" class="check-form">
+            <div>
+                <label for="check-in">Check In</label>
+                <input type="date" name="check-in" id="" placeholder="Add Date">
+            </div>
+
+            <div>
+                <label for="check-out">Check Out</label>
+                <input type="date" name="check-out" id="" placeholder="Add Date">
+            </div>
+
+            <div class="guest-field">
+                <label for="guest">Guest</label>
+                <input type="text" name="guest" id="" placeholder="2 Guest">
+            </div>
+
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house"></i>Entire Home
+                <span>You will have the entire flat for you</span>
+            </li>
+
+            <li><i class="fa-solid fa-paint-roller"></i>Enhanced Clean
+                <span>This host has committed to stabnb's cleaning process</span>
+            </li>
+
+            <li><i class="fa-solid fa-location-dot"></i>Great location 
+                <span>90% of recent guests gave the location of a 5 star rating<span>
+            </li>
+
+            <li><i class="fa-solid fa-heart"></i>Great check-in Experience
+                <span>100% of recent guests gave the check-in process a 5 star rating</span>
+            </li>
+
+
+        </ul>
+
+        <hr class="line">
+
+        <p id="home-desc"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est necessitatibus ducimus nesciunt fuga a ab, vel error numquam dignissimos, officia, nam quas aspernatur quaerat cupiditate minima aliquam perspiciatis sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatum temporibus doloribus dolorem, incidunt eligendi possimus mollitia error aliquam? Harum autem dolorem suscipit totam beatae ullam unde debitis quod cumque.</p>
+
+        <hr class="line">
+
+        <div class="map">
+
+            <h3>Location On Map</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390.8902129426812!2d81.67843549509548!3d21.239961193361147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dda117a7f3f3%3A0xbbd73dff1e3f0a16!2sTHE%20TRITON%20by%20DAIICHI%20HOTELS!5e0!3m2!1sen!2sin!4v1663221132278!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <b>The Triton by DAICHI Hotel, Raipur </b>
+            <p>It's like a home away from home.</p>
+        </div>
+
+        <hr>
+
+        <div class="host">
+            <img src="/Developer.jpeg" alt="host">
+            <div>
+                <h2>Developed By Himanshu Hota</h2>
+                <p><span>                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    </span> &nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response Rate &nbsp; : &nbsp; 100% &nbsp; &nbsp; Response Time &nbsp; : &nbsp;  60 Minute</p>
+            </div>
+        </div>
+
+        <a href="https://www.linkedin.com/in/himanshu-hota/" id="contact-host">Contact Developer</a>
+
+        <div class="container">
+            <div id="footer">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    
+                <a href="https://www.instagram.com/himanshuhota01/"><i class="fa-brands fa-instagram"></i></a>
+    
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    
+                <a href="https://www.linkedin.com/in/himanshu-hota/"><i class="fa-brands fa-linkedin"></i></a>
+    
+                <hr>
+    
+                <p>Copyright 2022</p>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        let nav = document.getElementById("nav-bar");
+        
+        function toggleMenu(){
+            nav.classList.toggle("hide-menu");
+        }
+        
+        </script>
+        
+
+
+
+
+
+</body>
+</html>
